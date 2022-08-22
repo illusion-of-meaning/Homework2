@@ -27,8 +27,14 @@ public class Main {
 
         //4
         short excessWeight = 7000;
-        System.out.println("При потере 250гр в день, похудение займет " + excessWeight / 250 + " дней.");
-        System.out.println("При потере 500гр в день, похудение займет " + excessWeight / 500 + " дней.");
+        int minDays = excessWeight / 250;
+        int maxDays = excessWeight / 500;
+
+        double avgDays = (minDays + maxDays) / (2 * 1.0);
+
+        System.out.println("Максимально, похудение займет " + maxDays + " дней.");
+        System.out.println("Минимально, похудение займет " + minDays + " дней.");
+        System.out.println("В среднем, похудение займет " + avgDays + " дней.");
 
         //5
         int countMasha = 67_760;
