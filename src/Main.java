@@ -14,5 +14,15 @@ public class Main {
         float secondBoxer = 82.7f;
         System.out.println("Общий вес обоих боксёров: " + (firstBoxer + secondBoxer));
         System.out.println("Разница в весе боксеров " + (firstBoxer < secondBoxer ? secondBoxer - firstBoxer : firstBoxer - secondBoxer) + " кг.");
+
+        //3
+        short weightBananas = 5 * 80;
+        short weightMilk = 2 * 105;
+        short weightIceCream = 2 * 100;
+        short weightEagle = 4 * 70;
+        int totalWeight = weightBananas + weightMilk + weightIceCream + weightEagle;
+
+        System.out.println("Вес завтрака " + totalWeight + " гр.");
+        System.out.println("Вес завтрака " + totalWeight / 1000 + " кг " + totalWeight % 1000 + " гр.");
     }
 }
