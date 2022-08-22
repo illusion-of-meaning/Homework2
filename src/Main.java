@@ -24,5 +24,10 @@ public class Main {
 
         System.out.println("Вес завтрака " + totalWeight + " гр.");
         System.out.println("Вес завтрака " + totalWeight / 1000 + " кг " + totalWeight % 1000 + " гр.");
+
+        //4
+        short excessWeight = 7000;
+        System.out.println("При потере 250гр в день, похудение займет " + excessWeight / 250 + " дней.");
+        System.out.println("При потере 500гр в день, похудение займет " + excessWeight / 500 + " дней.");
     }
 }
