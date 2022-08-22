@@ -1,7 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("1 - пишем код");
-        System.out.println("2 - делаем коммит и пуш");
-        System.out.println("3 - переходим в Github");
+        //1
+        byte byteType = 13;
+        short shortType = 31289;
+        int intType = 9;
+        long longType = 3298L;
+
+        float floatType = 13.928f;
+        double doubleType = 9.54585126;
+
     }
 }
