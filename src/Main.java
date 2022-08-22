@@ -29,5 +29,16 @@ public class Main {
         short excessWeight = 7000;
         System.out.println("При потере 250гр в день, похудение займет " + excessWeight / 250 + " дней.");
         System.out.println("При потере 500гр в день, похудение займет " + excessWeight / 500 + " дней.");
+
+        //5
+        int countMasha = 67_760;
+        int countDenis = 83_690;
+        int countChristina = 76_230;
+        int newCountMasha = countMasha + (countMasha / 10);
+        int newCountDenis = countDenis + (countDenis / 10);
+        int newCountChristina = countChristina + (countChristina / 10);
+        System.out.println("Маша теперь получает " + newCountMasha + " рублей. Годовой доход вырос на " + ((newCountMasha * 12) - (countMasha * 12)) + " рублей");
+        System.out.println("Денис теперь получает " + newCountDenis + " рублей. Годовой доход вырос на " + ((newCountDenis * 12) - (countDenis * 12)) + " рублей");
+        System.out.println("Кристина теперь получает " + newCountChristina + " рублей. Годовой доход вырос на " + ((newCountChristina * 12) - (countChristina * 12)) + " рублей");
     }
 }
